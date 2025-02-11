@@ -1,0 +1,48 @@
+
+.search-container {
+  padding: 20px;
+  width: 80%; 
+  margin: 0 auto;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.user-list {
+  margin-top: 20px;
+  padding: 0;
+}
+
+.user-item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+}
+
+.user-item:hover {
+  background-color: #f0f0f0;
+}
+
+.user-content {
+  display: flex;
+  align-items: center;
+}
+
+.user-profile-picture {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.user-displayname {
+  font-size: 18px;
+  font-weight: bold;
+}
